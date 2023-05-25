@@ -41,6 +41,10 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
+.row {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* HEADER  */
 .header {
@@ -123,3 +127,25 @@ a {
     right: calc((100vw - 1100px) / 2 - 100px);
     bottom: 0;
 }
+
+
+/* CLIENTS  */
+.clients {
+    margin-top: 125px;
+}
+.row-desc {
+    margin-top: 25px;
+}
+.clients .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7D8589;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    align-items: center;
+}
+
