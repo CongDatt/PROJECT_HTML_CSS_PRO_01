@@ -30,7 +30,7 @@ a {
 .btn {
     min-width: 98px;
     background: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 12px;
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 21px;
@@ -90,6 +90,7 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 /* HERO */
@@ -149,3 +150,72 @@ a {
     align-items: center;
 }
 
+/* GUIDES  */
+.guides {
+    margin-top: 200px;
+}
+.guides .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    text-align: center;
+    color: #000339;
+    position: relative;
+}
+.guides .sub-title::before {
+    content: "";
+    width: 4.1rem;
+    height: 0.4rem;
+    background: #000339;
+    display: inline-block; /* This attribute make before class can have width / height */
+    border-radius: 12px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.guides .desc {
+    width: 459px;
+    max-width: 100%; /* tránh việc thanh cuộn khi trình duyệt nhỏ */
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    text-align: center;
+    color: #5A6473;
+    margin: 20px auto 0;
+}
+.list-guides {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.guide-tem {
+    margin: 0 70px;
+    text-align: center;
+}
+.guide-tem .tittle {
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #3B3C45;
+}
+.guide-tem .link {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #0689FF;
+}
+.guide-tem .arrow {
+    margin-left: 6px;
+}
+.guide-cta {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 25px;
+}
+.guide-cta  .btn {
+    min-width: 170px;
+}
