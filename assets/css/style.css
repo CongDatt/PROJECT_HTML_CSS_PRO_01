@@ -319,14 +319,18 @@ a {
 .stats .content {
     word-wrap: 1048px;
 }
-.stats .img-block img {
+.stats .img-block .image {
     width: 100%;
+    max-width: 460px;
     height: 460px;
     object-fit: cover;
     border-radius: 12px;
     /* move to left  */
     display: block;
     margin-left: auto;
+}
+.stats .img-block  {
+    position: relative;
 }
 .stats .img-block, .stats .infor {
     width: 50%;
@@ -353,11 +357,43 @@ a {
     width: 269px;
     line-height: 1.29;
 }
-.stats .desc {
+.stats .infor .desc {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 30px;
     color: #5A6473;
     width: 309px;
     margin-top: 20px;
+}
+.stats-trend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    padding: 45px 22px;
+    width: 239px;
+    box-shadow: 90px 85px 100px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 0px 12px 12px;
+}
+.stats-trend .row {
+    margin-left: auto;
+    margin-top: 8px;
+}
+.stats-trend .desc {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #A7A7A7;
+    margin-bottom: 25px;
+}
+.stats-trend .value {
+    font-weight: 700;
+    font-size: 2.6rem;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+.stats-trend .separate {
+    width: 193.62px;
+    height: 1px;
+    background: #E9E9E9;
 }
