@@ -45,6 +45,12 @@ a {
     display: flex;
     justify-content: space-between;
 }
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+}
 
 /* HEADER  */
 .header {
@@ -271,6 +277,7 @@ a {
     font-weight: 500;
     font-size: 1.4rem;
     color: #A3A6AB;
+    word-break: break-all;
 }
 .featured .list .thumb {
     width: 100%;
