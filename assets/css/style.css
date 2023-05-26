@@ -307,3 +307,57 @@ a {
 .featured .infor .icon:first-child {
     margin-left: 0;
 }
+
+/* STATS  */
+.stats { 
+    margin-top: 75px;
+    padding: 50px 0;
+}
+.stats .row {
+    display: flex;
+}
+.stats .content {
+    word-wrap: 1048px;
+}
+.stats .img-block img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+    /* move to left  */
+    display: block;
+    margin-left: auto;
+}
+.stats .img-block, .stats .infor {
+    width: 50%;
+}
+.stats .infor {
+    padding: 79px 0 0 165px;
+}
+.stats .sub-title::before {   
+    content: ""; 
+    width: 41px;
+    height: 4px;
+    background-color: #000339;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -10px;
+}
+.stats .sub-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #000339;
+    width: 269px;
+    line-height: 1.29;
+}
+.stats .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #5A6473;
+    width: 309px;
+    margin-top: 20px;
+}
