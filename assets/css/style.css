@@ -394,7 +394,7 @@ a {
 }
 .stats-trend .separate {
     width: 193.62px;
-    height: 1px;
+    height: 1.2px;
     background: #E9E9E9;
 }
 .avatar-block {
@@ -412,4 +412,20 @@ a {
     object-fit: cover;
     border-radius: 50%;
     margin-left: -3px; /* để cho avatar chồng lên nhau  */
+}
+.row-qty {
+    margin-top: 110px;
+    padding: 0 32px;
+}
+.qty-item .qty {
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000000;
+}
+.qty-item .qty-desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #7B8087;
+    margin-top: 24px;
 }
