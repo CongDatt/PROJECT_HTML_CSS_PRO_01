@@ -397,3 +397,19 @@ a {
     height: 1px;
     background: #E9E9E9;
 }
+.avatar-block {
+    margin-top: 26px;
+    display: flex;
+    gap: 14px 16px;
+    flex-wrap: wrap;
+}
+.avatar-block .avatar-group {
+    display: flex;
+}
+.avatar-group  .avatar {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -3px; /* để cho avatar chồng lên nhau  */
+}
